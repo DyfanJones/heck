@@ -5,3 +5,5 @@
 ^README\.Rmd$
 ^\.github$
 ^src/rust/vendor$
+^CODE_OF_CONDUCT\.md$
+^codecov\.yml$
