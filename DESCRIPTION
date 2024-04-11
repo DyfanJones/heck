@@ -7,7 +7,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-9910-865X")),
     person("Dyfan", "Jones", email = "dyfan.r.jones@gmail.com", role = "cre")
   )
-Description: Convert string into cases like snake or camel using 'rust crate heck' <https://crates.io/crates/heck>.
+Description: Convert strings into cases like snake or camel using 'rust crate heck' <https://crates.io/crates/heck>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
