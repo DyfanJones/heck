@@ -1,0 +1,60 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# heck
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This repo was developed from the excellent tutorial https://extendr.github.io/user-guide/heckin-case-converter.html. This package is a thin wrapper around the rust crate [heck](https://crates.io/crates/heck) allowing R to convert character vectors to specific cases super fast.
+
+## Installation
+
+You can install the development version of heck like so:
+
+``` r
+remotes::install_github("dyfanjones/heck")
+```
+
+## Example
+
+```{r example}
+library(heck)
+
+
+x <- "Demo String"
+
+to_kebab_case(x)
+
+to_lower_camel_case(x)
+
+to_upper_camel_case(x)
+
+to_pascal_case(x)
+
+to_snake_case(x)
+
+to_snek_case(x)
+
+to_title_case(x)
+
+to_train_case(x)
+
+to_shouty_kebab_case(x)
+
+to_shouty_snake_case(x)
+```
+
+**NOTE:** This repo was created to help me learn how R and Rust work together.

@@ -1,0 +1,18 @@
+Package: heck
+Type: Package
+Title: Thin Wrapper around `rust crate heck`
+Version: 0.1.0
+Authors@R: c(
+    person("Dyfan", "Jones", email = "dyfan.r.jones@gmail.com", role = "cre")
+  )
+Description: Convert string into cases like snake using `rust crate heck` <https://crates.io/crates/heck>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/rextendr/version: 0.3.1.9000
+RoxygenNote: 7.3.1
+SystemRequirements: Cargo (Rust's package manager), rustc
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
