@@ -4,11 +4,16 @@
 \name{heck-package}
 \alias{heck}
 \alias{heck-package}
-\title{heck: Thin Wrapper around `rust crate heck`}
+\title{heck: Thin Wrapper around 'rust crate heck'}
 \description{
-Convert string into cases like snake using `rust crate heck` \url{https://crates.io/crates/heck}.
+Convert strings into cases like snake or camel using 'rust crate heck' \url{https://github.com/withoutboats/heck}.
 }
 \author{
 \strong{Maintainer}: Dyfan Jones \email{dyfan.r.jones@gmail.com}
+
+Authors:
+\itemize{
+  \item Josiah Parry \email{josiah.parry@gmail.com} (\href{https://orcid.org/0000-0001-9910-865X}{ORCID})
+}
 
 }

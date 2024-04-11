@@ -15,8 +15,8 @@ coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](
 This repository was developed from the excellent tutorial
 <https://extendr.github.io/user-guide/heckin-case-converter.html>. This
 package is a thin wrapper around the rust crate
-[heck](https://crates.io/crates/heck) allowing `R` to convert character
-vectors to specific cases super fast.
+[heck](https://github.com/withoutboats/heck) allowing `R` to convert
+character vectors to specific cases super fast.
 
 ## Installation
 
@@ -45,7 +45,6 @@ By contributing to this project, you agree to abide by its terms.
 
 ``` r
 library(heck)
-#> Warning: package 'heck' was built under R version 4.3.3
 
 
 x <- "Demo String"
