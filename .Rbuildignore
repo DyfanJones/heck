@@ -7,3 +7,4 @@
 ^src/rust/vendor$
 ^CODE_OF_CONDUCT\.md$
 ^codecov\.yml$
+^cran-comments\.md$
