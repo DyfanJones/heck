@@ -1,15 +1,15 @@
 Package: heck
 Type: Package
-Title: Fast String Case Converter
+Title: Highly Performant String Case Converter
 Version: 0.1.0
 Authors@R: c(
     person("Josiah", "Parry", , "josiah.parry@gmail.com", role = c("aut"),
            comment = c(ORCID = "0000-0001-9910-865X")),
     person("Dyfan", "Jones", email = "dyfan.r.jones@gmail.com", role = "cre")
   )
-Description: Provides a case conversion between common cases like camel and 
-    snake case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
-    as the backend for a fast case conversion for 'R'.
+Description: Provides a case conversion between common cases like CamelCase and 
+    snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
+    as the backend for a highly performant case conversion for 'R'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
