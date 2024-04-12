@@ -9,7 +9,7 @@ Authors@R: c(
   )
 Description: Provides a case conversion between common cases like CamelCase and 
     snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
-    as the backend to provide highly performant case conversion for 'R'.
+    as the backend for a highly performant case conversion for 'R'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

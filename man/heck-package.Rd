@@ -6,7 +6,7 @@
 \alias{heck-package}
 \title{heck: Highly Performant String Case Converter}
 \description{
-Provides a case conversion between common cases like CamelCase and snake_case. Using the 'rust crate heck' \url{https://github.com/withoutboats/heck} as the backend to provide highly performant case conversion for 'R'.
+Provides a case conversion between common cases like CamelCase and snake_case. Using the 'rust crate heck' \url{https://github.com/withoutboats/heck} as the backend for a highly performant case conversion for 'R'.
 }
 \author{
 \strong{Maintainer}: Dyfan Jones \email{dyfan.r.jones@gmail.com}
