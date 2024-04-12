@@ -4,9 +4,9 @@
 \name{heck-package}
 \alias{heck}
 \alias{heck-package}
-\title{heck: Thin Wrapper around 'rust crate heck'}
+\title{heck: Highly Performant String Case Converter}
 \description{
-Convert strings into cases like snake or camel using 'rust crate heck' \url{https://github.com/withoutboats/heck}.
+Provides a case conversion between common cases like CamelCase and snake_case. Using the 'rust crate heck' \url{https://github.com/withoutboats/heck} as the backend to provide highly performant case conversion for 'R'.
 }
 \author{
 \strong{Maintainer}: Dyfan Jones \email{dyfan.r.jones@gmail.com}

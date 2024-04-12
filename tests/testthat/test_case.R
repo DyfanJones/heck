@@ -1,7 +1,7 @@
-test_that("check case convertion", {
+test_that("check case conversion", {
   x <- "demo string"
 
-  expect_equal(to_kebab_case(x),"demo-string")
+  expect_equal(to_kebab_case(x), "demo-string")
   expect_equal(to_lower_camel_case(x), "demoString")
   expect_equal(to_upper_camel_case(x), "DemoString")
   expect_equal(to_pascal_case(x), "DemoString")
@@ -72,4 +72,3 @@ test_that("check wrong data type", {
   expect_error(to_shouty_kebab_case(x), "Not a string vector")
   expect_error(to_shouty_snake_case(x), "Not a string vector")
 })
-

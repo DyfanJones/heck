@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/DyfanJones/heck/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DyfanJones/heck/actions/workflows/R-CMD-check.yaml)
 [![heck status badge](https://dyfanjones.r-universe.dev/badges/heck)](https://dyfanjones.r-universe.dev/heck)
 [![Codecov test coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/heck?branch=master)
+[![CRAN status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
 <!-- badges: end -->
 
 This repository was developed from the excellent tutorial https://extendr.github.io/user-guide/heckin-case-converter.html. This package is a thin wrapper around the rust crate [heck](https://github.com/withoutboats/heck) allowing `R` to convert character vectors to specific cases super fast.

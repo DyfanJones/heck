@@ -10,6 +10,8 @@
 badge](https://dyfanjones.r-universe.dev/badges/heck)](https://dyfanjones.r-universe.dev/heck)
 [![Codecov test
 coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/heck?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
 <!-- badges: end -->
 
 This repository was developed from the excellent tutorial
