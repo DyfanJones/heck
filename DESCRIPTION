@@ -13,9 +13,10 @@ Description: Provides a case conversion between common cases like CamelCase and
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/DyfanJones/heck
+URL: https://github.com/DyfanJones/heck,
+    https://dyfanjones.r-universe.dev/heck
 Config/rextendr/version: 0.3.1.9000
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 SystemRequirements: Cargo (Rust's package manager), rustc
 Roxygen: list(markdown = TRUE)
 Suggests: 
