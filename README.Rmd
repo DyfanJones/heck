@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
 <!-- badges: end -->
 
-This repository was developed from the excellent tutorial https://extendr.github.io/user-guide/heckin-case-converter.html. This package is a thin wrapper around the rust crate [heck](https://github.com/withoutboats/heck) allowing `R` to convert character vectors to specific cases super fast.
+This repository was developed from the excellent extendr tutorial. This package is a thin wrapper around the rust crate [heck](https://github.com/withoutboats/heck) allowing `R` to convert character vectors to specific cases super fast.
 
 ## Installation
 

@@ -14,8 +14,7 @@ coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](
 status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
 <!-- badges: end -->
 
-This repository was developed from the excellent tutorial
-<https://extendr.github.io/user-guide/heckin-case-converter.html>. This
+This repository was developed from the excellent extendr tutorial. This
 package is a thin wrapper around the rust crate
 [heck](https://github.com/withoutboats/heck) allowing `R` to convert
 character vectors to specific cases super fast.
@@ -53,30 +52,57 @@ x <- "Demo String"
 
 to_kebab_case(x)
 #> [1] "demo-string"
+```
+
+``` r
 
 to_lower_camel_case(x)
 #> [1] "demoString"
+```
+
+``` r
 
 to_upper_camel_case(x)
 #> [1] "DemoString"
+```
+
+``` r
 
 to_pascal_case(x)
 #> [1] "DemoString"
+```
+
+``` r
 
 to_snake_case(x)
 #> [1] "demo_string"
+```
+
+``` r
 
 to_snek_case(x)
 #> [1] "demo_string"
+```
+
+``` r
 
 to_title_case(x)
 #> [1] "Demo String"
+```
+
+``` r
 
 to_train_case(x)
 #> [1] "Demo-String"
+```
+
+``` r
 
 to_shouty_kebab_case(x)
 #> [1] "DEMO-STRING"
+```
+
+``` r
 
 to_shouty_snake_case(x)
 #> [1] "DEMO_STRING"
