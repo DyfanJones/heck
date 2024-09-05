@@ -8,5 +8,5 @@ crate-type = ['staticlib']
 name = 'heck'
 
 [dependencies]
-extendr-api = '0.7.0'
+extendr-api = '0.7.1'
 heck = "0.5.0"
