@@ -15,9 +15,9 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/DyfanJones/heck,
     https://dyfanjones.r-universe.dev/heck
-Config/rextendr/version: 0.3.1.9000
+Config/rextendr/version: 0.3.1.9001
 RoxygenNote: 7.3.2
-SystemRequirements: Cargo (Rust's package manager), rustc >= 1.56.0
+SystemRequirements: Cargo (Rust's package manager), rustc (>= 1.56.0)
 Roxygen: list(markdown = TRUE)
 Suggests: 
     spelling,
