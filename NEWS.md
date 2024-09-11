@@ -1,6 +1,7 @@
 # heck 0.1.3
 
 * bump `extendr` to 0.7.1 to fix (#5). Thanks to @JosiahParry and @CGMossa fixing issue upstream
+* update configure to use `tools/msrv.R`
 
 # heck 0.1.2
 
