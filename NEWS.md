@@ -1,10 +1,11 @@
 # heck 0.1.3
 
-* bump extendr to 0.7.1 to fix (#5). Thanks to @JosiahParry and @CGMossa fixing issue upstream
+* bump `extendr` to 0.7.1 to fix (#5). Thanks to @JosiahParry and @CGMossa fixing issue upstream
+* update configure to use `tools/msrv.R`
 
 # heck 0.1.2
 
-* set rustc version in description
+* set `rustc` version in description
 
 # heck 0.1.1
 
