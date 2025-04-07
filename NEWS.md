@@ -1,3 +1,7 @@
+# heck 0.1.4
+
+* bump extendr version to resolve cran issue (#11)
+
 # heck 0.1.3
 
 * bump `extendr` to 0.7.1 to fix (#5). Thanks to @JosiahParry and @CGMossa fixing issue upstream

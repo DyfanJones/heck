@@ -9,3 +9,6 @@
 ^codecov\.yml$
 ^cran-comments\.md$
 ^CRAN-SUBMISSION$
+^src/rust/target$
+^src/Makevars$
+^src/Makevars\.win$
