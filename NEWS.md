@@ -1,3 +1,7 @@
+# heck 0.1.5
+
+* Addresses non API changes
+
 # heck 0.1.4
 
 * bump extendr version to resolve cran issue (#11)

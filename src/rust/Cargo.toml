@@ -10,6 +10,3 @@ name = 'heck'
 [dependencies]
 extendr-api =  "0.8.0"
 heck = "0.5.0"
-
-[patch.crates-io]
-extendr-api = { git = "https://github.com/extendr/extendr"}
