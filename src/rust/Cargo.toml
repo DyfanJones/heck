@@ -1,12 +1,13 @@
 [package]
-name = 'heck'
-version = '0.1.0'
-edition = '2021'
+name = "heck"
+publish = false
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.65"
 
 [lib]
-crate-type = ['staticlib']
-name = 'heck'
+crate-type = [ "staticlib" ]
+name = "heck"
 
 [dependencies]
-extendr-api =  "0.8.0"
-heck = "0.5.0"
+extendr-api = "0.8.0"
