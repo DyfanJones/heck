@@ -1,3 +1,7 @@
+# heck 0.1.6
+
+* Addresses further non API changes and changes in symbols checking in R 4.5
+
 # heck 0.1.5
 
 * Addresses non API changes
