@@ -1,6 +1,6 @@
 use extendr_api::prelude::*;
 
-use heck::{
+use heck_case::{
   ToKebabCase, ToLowerCamelCase, ToPascalCase,
   ToSnakeCase, ToSnekCase, ToTitleCase, ToTrainCase, ToUpperCamelCase,
   ToShoutyKebabCase, ToShoutySnakeCase
@@ -15,7 +15,7 @@ macro_rules! make_heckin_fn {
       x.into_iter()
       .map(|xi| match xi.is_na() {
         true => Rstr::na(),
-        false => Rstr::from(xi.as_str().$fn_name()),
+        false => Rstr::from(AsRef::<str>::as_ref(&xi).$fn_name()),
       })
       .collect::<Strings>()
     }
