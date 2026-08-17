@@ -1,6 +1,6 @@
 use extendr_api::prelude::*;
 
-use heck::{
+use heck_case::{
   ToKebabCase, ToLowerCamelCase, ToPascalCase,
   ToSnakeCase, ToSnekCase, ToTitleCase, ToTrainCase, ToUpperCamelCase,
   ToShoutyKebabCase, ToShoutySnakeCase

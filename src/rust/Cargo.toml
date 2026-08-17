@@ -7,9 +7,13 @@ rust-version = "1.65"
 
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["staticlib", "rlib"]
 name = "heck"
 
+[[bin]]
+name = "document"
+path = "document.rs"
+
 [dependencies]
-extendr-api =  "0.8.2"
-heck = "0.5.0"
+extendr-api = "0.9"
+heck_case = { package = "heck", version = "0.5.0" }
