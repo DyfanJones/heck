@@ -1,3 +1,10 @@
+# heck 0.1.6
+
+* bump `extendr-api` to 0.9
+* fix build failure caused by the package's own crate sharing the name `heck` with its `heck` dependency
+* fix deprecated `Rstr::as_str()` usage
+* fix build on Windows ARM64 (#16)
+
 # heck 0.1.5
 
 * Addresses non API changes

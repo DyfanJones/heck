@@ -4,6 +4,7 @@
 ^LICENSE\.md$
 ^README\.Rmd$
 ^\.github$
+^\.claude$
 ^src/rust/vendor$
 ^CODE_OF_CONDUCT\.md$
 ^codecov\.yml$
