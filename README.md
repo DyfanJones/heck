@@ -12,6 +12,7 @@ badge](https://dyfanjones.r-universe.dev/badges/heck)](https://dyfanjones.r-univ
 coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/heck?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
+[![extendr](https://img.shields.io/badge/extendr-%5E0.9-276DC2)](https://extendr.github.io/extendr/extendr_api/)
 <!-- badges: end -->
 
 This repository was developed from the excellent extendr tutorial. This
@@ -52,57 +53,30 @@ x <- "Demo String"
 
 to_kebab_case(x)
 #> [1] "demo-string"
-```
-
-``` r
 
 to_lower_camel_case(x)
 #> [1] "demoString"
-```
-
-``` r
 
 to_upper_camel_case(x)
 #> [1] "DemoString"
-```
-
-``` r
 
 to_pascal_case(x)
 #> [1] "DemoString"
-```
-
-``` r
 
 to_snake_case(x)
 #> [1] "demo_string"
-```
-
-``` r
 
 to_snek_case(x)
 #> [1] "demo_string"
-```
-
-``` r
 
 to_title_case(x)
 #> [1] "Demo String"
-```
-
-``` r
 
 to_train_case(x)
 #> [1] "Demo-String"
-```
-
-``` r
 
 to_shouty_kebab_case(x)
 #> [1] "DEMO-STRING"
-```
-
-``` r
 
 to_shouty_snake_case(x)
 #> [1] "DEMO_STRING"
