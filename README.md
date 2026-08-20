@@ -12,7 +12,7 @@ badge](https://dyfanjones.r-universe.dev/badges/heck)](https://dyfanjones.r-univ
 coverage](https://codecov.io/gh/DyfanJones/heck/branch/master/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/heck?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/heck)](https://CRAN.R-project.org/package=heck)
-[![extendr](https://img.shields.io/badge/extendr-%5E0.9-276DC2)](https://extendr.github.io/extendr/extendr_api/)
+[![extendr](https://img.shields.io/badge/extendr-%5E0.9-276DC2)](https://extendr.rs/extendr/extendr_api/)
 <!-- badges: end -->
 
 This repository was developed from the excellent extendr tutorial. This
