@@ -1,3 +1,7 @@
+# heck 0.1.7
+
+* fixed url redirect
+
 # heck 0.1.6
 
 * bump `extendr-api` to 0.9
